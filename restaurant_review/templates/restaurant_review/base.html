@@ -8,8 +8,22 @@
         <link rel="stylesheet" href="{% static 'fontawesome/css/all.min.css' %}">
         <link rel="icon"href="{% static 'favicon.ico' %}">
     {% endblock %}
+    <style>
+    .bgchanged {
+      /* The image used */
+      background-image: url("restaurant_review/templates/restaurant_review/pexels-aleksandar-pasaric-1415734");
+    
+      /* Full height */
+      height: 100%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
 </head>
-<body>
+<body class ="bgchanged">
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
         <div class="container">
           <a class="navbar-brand" href="/">
